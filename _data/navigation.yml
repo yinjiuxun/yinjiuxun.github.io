@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: Research
+  link: /research.html
+- name: Publications
+  link: /publications.html
+- name: CV
+  link: /cv.html
+- name: News
+  link: /blog.html
+- name: Links
+  link: /redirect.html
