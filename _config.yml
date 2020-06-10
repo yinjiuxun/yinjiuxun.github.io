@@ -1,2 +1,3 @@
 name: Jiuxun Yin
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
