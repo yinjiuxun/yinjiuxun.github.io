@@ -5,4 +5,4 @@ title: CV
 
 # CV
 
-This page shows my CV.
+CV attached [here](/assets/Academic_CV.pdf)
