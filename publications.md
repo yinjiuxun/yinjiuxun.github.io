@@ -4,12 +4,13 @@ title: Publications
 ---
 
 # Publications
+----
 
 <h2> Peer-reviewed journal papers </h2>
 
 [9] Yin, J., & Denolle, M. A. (-). Dynamics of trench rupturing megathrust earthquakes: 1. Seismic structure effects from accretionary-wedge and subducting oceanic crust. (in prep for Journal of Geophysical Research: Solid Earth)
 
-[8] Yin, J., Li, Z. & Denolle, M. A. (2020). Source time function clustering reveals patterns in earthquake dynamics. (submitted to AGU Advances)
+[8] Yin, J., Li, Z. & Denolle, M. A. (2020). Source time function clustering reveals patterns in earthquake dynamics. (submitted to AGU Advances, pre-print can be found [here](10.1002/essoar.10503349.1))
 
 [7] Danré, P., Yin, J., Lipovsky, B. P., & Denolle, M. A. (2019). [Earthquakes within earthquakes: Patterns in rupture complexity](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083093). Geophysical Research Letters, 46(13), 7352-7360.
 
@@ -26,7 +27,7 @@ title: Publications
 [1] Yang, H., Lin, J., Yin, J., & Yao, H. (2015). [Tectonic settings of the 2015M w 8.3 Coquimbo, Chile earthquake and its implications on megathrust earthquakes](http://engine.scichina.com/publisher/scp/journal/CSB/60/36/10.1360/N972015-01110?slug=abstract). Chinese Science Bulletin, 60(36), 3549-3556.
 
 
-
+----
 # Selected Seminars and Colloquia
 
 [11] Eugene, OR (US), Poster presentation at _Megathrust Modeling Workshop_, Oct. 6-9, 2019
