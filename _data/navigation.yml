@@ -1,10 +1,10 @@
-- name: Home
+- name: Home  /
   link: /
-- name: Research
+- name: Research  /
   link: /research.html
-- name: Publications
+- name: Publications  /
   link: /publications.html
-- name: CV
-  link: /cv.html
-- name: News
+- name: News  /
   link: /blog.html
+- name: CV  /
+  link: /assets/Academic_CV.pdf
