@@ -14,7 +14,7 @@ My name is Jiuxun Yin (尹九洵). I'm currently a PhD candidate at Harvard Univ
 [**Google Scholar**](https://scholar.google.com/citations?user=MongEqQAAAAJ&hl=en&oi=sra) 
 [**Research Gate**](https://www.researchgate.net/profile/Jiuxun_Yin) 
 [**ORCID**](https://orcid.org/0000-0003-0641-5680)
-
+[**Github**](https://github.com/yinjiuxun)
 
 
 # Research Interest
