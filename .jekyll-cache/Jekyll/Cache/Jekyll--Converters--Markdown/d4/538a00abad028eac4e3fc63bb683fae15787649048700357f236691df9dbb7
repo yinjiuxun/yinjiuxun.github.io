@@ -1,0 +1,46 @@
+I"�<h2 id="dynamic-simulations-of-earthquake-rupture">Dynamic simulations of earthquake rupture</h2>
+
+<hr />
+<p>[<a href="/pages/research.html">Back</a>]</p>
+
+<hr />
+
+<h3 id="3-dynamic-simulations-of-megathrust-earthquakes-on-going-work">3. Dynamic simulations of megathrust earthquakes (on-going work)</h3>
+
+<p>Megathrust events, especially those rupture to the surface, pose great threats to the coastal regions like the 2011 Tohoku earthquake. To better understand the physics of those surface rupturing megathrust events and predict their potential ground motions, numerical simulations with realistic parameter settings are important. In this study, we investigate the effects of different subduction zone velocity structures on the near field ground motions. Our model is the representative 2D thrust fault model with free surface and low dip angle. We couple different types of structural models: 1) homogeneous velocity structure; 2) realistic velocity structure from recent seismic tomography studies into the dynamic simulations. Because the S wave velocity structure in the subduction zone is still poorly constrained, we also try different $V_p/V_s$ ratio settings in the realistic velocity structure. The dynamic rupture and wave propagation are solved by the SEM2DPACK (developed by Jean Paul Ampuero, available <a href="https://github.com/jpampuero/sem2dpack">here</a>.).</p>
+
+<p><img src="/assets/velocity_models.jpg" alt="megathrust" /></p>
+
+<p><em>Different types of velocity models settings.</em></p>
+
+<hr />
+
+<h3 id="2-systematic-variation-of-the-stf-complexity-with-frictional-properties">2. Systematic variation of the STF complexity with frictional properties</h3>
+
+<p>Using our dynamic simulations with stochastic prestress distributions, we further explore the possible dynamic factors that can change the variability of STFs. Specifically, we look at the frictional properties represented by the linear slip weakening friction. Here, we focus on varying the $D_c$ on fault interface, yet aware of the trade-off between strength excess and $D_c$ in controlling rupture velocity and the resulting ground motions. While we keep $D_c$ constant within a single set of simulations, we carry several sets of experiments with values  of $D_c$ at various levels 0.05, 0.1, 0.2, 0.4, 0.8, and 1.6 m that are within bounds found in the literature.</p>
+
+<p>For each $D_c$, we first generate a set of pre-stress distributions that we use in each simulations. Then we perform the hierarchical clustering and group the simulated STFs for each $D_c$, following the same procedures as for the <a href="http://scardec.projects.sismo.ipgp.fr/#">SCARDEC</a> STFs. Our results reveal a monotonic pattern that higher $D_c$ values produce larger proportion of complex STFs with multiple prominent peaks after stretching. In contrast, lower $D_c$ values produce mostly simple STFs with only one prominent peak after stretching. Those results are helpful to further constrain the rupture dynamics from the population behavior of large number of STFs.</p>
+
+<p>Our results indicate that the small values of $D_c &lt; 0.1$ m are necessary to produce the general level of complexity of the SCARDEC STFs. When binning these relative contributions with source depths, we find that crustal events (h $\leq$ 40 km), which show a higher degree of complexity, could be explained by a larger $D_c$ value than the deeper events. This is more pronounced with the upper-crustal depths (h $\leq$ 20 km).</p>
+
+<p><img src="/assets/STF_distributions.png" alt="STFs" /></p>
+
+<p><em>Group proportion distributions: (a) simulated STFs clustering with different values of $D_c$, compared with the group proportions of real STFs (SCARDEC); (b) Group proportions of real STFs (<a href="http://scardec.projects.sismo.ipgp.fr/#">SCARDEC</a>) within different depth bins. Please refer to Yin et al. (<a href="https://doi.org/10.1002/essoar.10503349.1">2020</a>) for more details.</em></p>
+
+<hr />
+
+<h3 id="1-2d-dynamic-simulation-with-stochastic-pre-stress-distribution">1. 2D dynamic simulation with stochastic pre-stress distribution</h3>
+
+<p>Simulations of dynamic ruptures using stochastic distributions of fault-interface parameters are popular in the investigations of complex kinematic source models, realistic fault geometry and roughness models, and to simulate high-frequency ground motions. In order to investigate possible factors that control diverse patterns of earthquake variability and complexity, we generate statistically similar shear pre-stress $\tau_0(\mathbf{r})$ distributions on the fault plane. The Power Spectral Density (PSD) of pre-stress on the fault is constrained to follow a power-law amplitude distribution that approximates the scenario caused by natural fault roughness (e.g., Candela et al., <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011JB009041">2012</a>).</p>
+
+<p>Currently our synthetic dynamic sources are generated in a 2-dimensional medium in an anti-plane setting. With properly chosen constitutive relation as well as nucleations, we can efficiently generate large number of dynamic models and explore the statistical patterns of those models. In our two STF projects (Danré et al., <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083093">2019</a>; Yin et al., <a href="https://doi.org/10.1002/essoar.10503349.1">2020</a>), we find that this is an effective way to reproduce the large STF variablity observed in the real world.</p>
+
+<p><img src="/assets/stochastic_models.jpg" alt="CSBP" /></p>
+
+<p><em>In total 1600 STFs generated by our dynamic simulations with stochastic prestress distributions. Individual STFs are shown in grey and black STFs are the center STFs after DTW  clustering based on the STF shape. Please refer to Danré et al. (<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083093">2019</a>) and Yin et al. (<a href="https://doi.org/10.1002/essoar.10503349.1">2020</a>) for more details.</em></p>
+
+<hr />
+<p>[<a href="/pages/research.html">Back</a>]</p>
+
+<hr />
+:ET
