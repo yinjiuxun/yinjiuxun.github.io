@@ -5,7 +5,7 @@ title: Observations
 ## Seismic observations on large earthquakes
 
 ----
-[[Back](/research.html)]
+[[Back](/pages/research.html)]
 
 ----
 
@@ -65,6 +65,6 @@ We improve this method in both efficiency and resolution, and further applied to
 _CSBP results of 2012 Sumatra Mw8.6 earthquake; 2015 Gorkha Mw 7.8 earthquake; 2015 Chile Mw8.3 earthquake in different frequency bands. Dots color shows the time. Please refer to the papers for details of results and explanations._
 
 ----
-[[Back](/research.html)]
+[[Back](/pages/research.html)]
 
 ----

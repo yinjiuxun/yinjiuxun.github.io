@@ -19,7 +19,7 @@ My name is Jiuxun Yin (尹九洵). I'm currently a PhD candidate at Harvard Univ
 
 ----
 
-## Research Interest ([for more details](/research.html))
+## Research Interest ([for more details](/pages/research.html))
 
 ![large earthquakes (>7.5) since 1962](/assets/large_earthquakes.jpg)
 
@@ -27,4 +27,4 @@ In the recorded history, the largest earthquakes, for instance the 2004 Sumatra 
 
 As populations grows, especially in the coastal regions where large earthquakes usually occur, mitigating the earthquake hazards is critical. During large earthquakes, the building collapse caused by ground motion as well as coastal destruction caused by huge tsunami waves are deadliest to human. Both of them are directly controlled by the earthquake source and their mitigation requires sufficient knowledge about the physics of the earthquake rupture. Different processes in the rupture, such as the direction of propagation, energy participation or surrounding structure may incur locally different ground motion. Therefore, further understanding the rupture during large earthquake is of not only scientific significance but also important to mitigate seismic hazards.
 
-My research involves studying on the earthquake rupture process, which includes the initation, evolution and termination of an earthquake ([details](/research.html)). The aims of my research are to better interpret the physics behind a destructive earthquake and helps to mitigate the damages caused by earthquakes.
+My research involves studying on the earthquake rupture process, which includes the initation, evolution and termination of an earthquake ([details](/pages/research.html)). The aims of my research are to better interpret the physics behind a destructive earthquake and helps to mitigate the damages caused by earthquakes.
