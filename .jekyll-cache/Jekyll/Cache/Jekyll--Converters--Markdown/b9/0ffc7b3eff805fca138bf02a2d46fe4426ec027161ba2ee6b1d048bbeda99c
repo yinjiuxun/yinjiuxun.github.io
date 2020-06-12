@@ -1,0 +1,27 @@
+I"€<h2 id="physical-explanations-on-the-observations">Physical explanations on the observations</h2>
+
+<hr />
+<p>[<a href="/research.html">Back</a>]</p>
+
+<hr />
+
+<h3 id="1-relation-between-the-backprojection-images-and-earthquake-source-kinematics-on-the-fault">1. Relation between the backprojection images and earthquake source kinematics on the fault</h3>
+
+<p>Although the BP methods have been successful in studying large earthquakes, the physical interpretations of the BP results are still not clear. All those previous comparisons between independent methods are qualitative. The explanation of BP with respect to energy is probably not incorrect, but is limited by the perspective of seismic signal processing instead of source physics. Obviously, better understandings on the BP images and their relation to the physics of earthquake rupture is significant and highly needed. In this study, we start from the theoretical formulation of the BP images, which is linear in the frequency domain, and carry on a synthetic exercise in a homogeneous fullspace. We find that the fundamental linear formulation of the BP method is most correlated with the true kinematic source properties: the images \(U_{BP}(\omega)\) from linear BP is a snapshot of the slip motion \(U(\omega)\) on the fault plane after a spatial smoothing with a frequency-dependent resolution matrix \(F(\omega)\):</p>
+
+\[U_{BP}(\omega) = F(\omega)U(\omega)\]
+
+<p>This direct relation between BP image and source kinematics helps to better understand and interpret the BP observations of the real earthquake rupture. For more details, please see Yin and Denolle (<a href="https://academic.oup.com/gji/article-abstract/217/2/729/5301380">2019 GJI</a>).</p>
+
+<p>Compressive Sensing BackProjection (CSBP), which is first developed by Yao et al. (<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011GL049223">2011</a>), is a high resolution backprojection method in frequency domain. CSBP applies the sparsity inversion with L1-norm based on the theory of compressive sensing. Compared with other types of backprojection methods, one of the key advantages of CSBP is that it can get high-resolution images in both high- and low-frequency bands.
+We improve this method in both efficiency and resolution, and further applied to some recent large earthquakes: <a href="https://academic.oup.com/gji/article/205/3/1682/656054/Rupture-and-frequency-dependent-seismic-radiation">2012 Sumatra Mw8.6 earthquake</a>; <a href="http://engine.scichina.com/publisher/scp/journal/SCES/doi/10.1007/s11430-016-9006-0?slug=abstract">2015 Gorkha Mw 7.8 earthquake</a>; <a href="http://onlinelibrary.wiley.com/doi/10.1002/2015GL067381/abstract">2015 Illapel Mw8.3 earthquake</a>. From our results of all those events, we found a common frequency-dependent pattern that the high-frequency and low-frequency results are at different part on the fault. Those observations directly shows the heterogeneity on the coseismic fault interface, and implies the different physics behind the high-frequency and low-frequency seismic radiation.</p>
+
+<p><img src="/assets/CSBP.jpg" alt="CSBP" /></p>
+
+<p><em>CSBP results of 2012 Sumatra Mw8.6 earthquake; 2015 Gorkha Mw 7.8 earthquake; 2015 Chile Mw8.3 earthquake in different frequency bands. Dots color shows the time. Please refer to the papers for details of results and explanations.</em></p>
+
+<hr />
+<p>[<a href="/research.html">Back</a>]</p>
+
+<hr />
+:ET
