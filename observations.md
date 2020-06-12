@@ -56,3 +56,15 @@ _Observations on the 2015 Illapel earthquake: (a) low frequency data (0.08-0.5Hz
 ----
 
 ### 1. Compressive Sensing BackProjection imaging on the rupture process of large earthquakes
+
+Compressive Sensing BackProjection (CSBP), which is first developed by Yao et al. ([2011](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011GL049223)), is a high resolution backprojection method in frequency domain. CSBP applies the sparsity inversion with L1-norm based on the theory of compressive sensing. Compared with other types of backprojection methods, one of the key advantages of CSBP is that it can get high-resolution images in both high- and low-frequency bands.
+We improve this method in both efficiency and resolution, and further applied to some recent large earthquakes: [2012 Sumatra Mw8.6 earthquake](https://academic.oup.com/gji/article/205/3/1682/656054/Rupture-and-frequency-dependent-seismic-radiation); [2015 Gorkha Mw 7.8 earthquake](http://engine.scichina.com/publisher/scp/journal/SCES/doi/10.1007/s11430-016-9006-0?slug=abstract); [2015 Illapel Mw8.3 earthquake](http://onlinelibrary.wiley.com/doi/10.1002/2015GL067381/abstract). From our results of all those events, we found a common frequency-dependent pattern that the high-frequency and low-frequency results are at different part on the fault. Those observations directly shows the heterogeneity on the coseismic fault interface, and implies the different physics behind the high-frequency and low-frequency seismic radiation. 
+
+![CSBP](/assets/CSBP.jpg)
+
+_CSBP results of 2012 Sumatra Mw8.6 earthquake; 2015 Gorkha Mw 7.8 earthquake; 2015 Chile Mw8.3 earthquake in different frequency bands. Dots color shows the time. Please refer to the papers for details of results and explanations._
+
+----
+[[Back](/research.html)]
+
+----
