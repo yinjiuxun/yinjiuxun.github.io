@@ -14,7 +14,7 @@ We developed different metrics to look at the complexity patterns of earthquake 
 
 **(1) DTW clustering**
 
-We develop a dynamic time warping (DTW) clustering method to focus on the STF general shapes. We use the dynamic time warping (DTW) distance and hierarchical clustering to group earthquakes based on the general shape of their STFs. The clusters exhibit different degrees of STF shape complexity, as measured by the number of prominent peaks (G1-G4). The clustering also indicates an association between the degree of STF complexity (or group) and earthquake source parameters. We have already submitted our finished manuscript to AGU Advances, and the pre-print can be found [here](10.1002/essoar.10503349.1).
+We develop a dynamic time warping (DTW) clustering method to focus on the STF general shapes. We use the dynamic time warping (DTW) distance and hierarchical clustering to group earthquakes based on the general shape of their STFs. The clusters exhibit different degrees of STF shape complexity, as measured by the number of prominent peaks (G1-G4). The clustering also indicates an association between the degree of STF complexity (or group) and earthquake source parameters. We have already submitted our finished manuscript to AGU Advances, and the pre-print can be found [here](https://doi.org/10.1002/essoar.10503349.1).
 
 ![subevents](/assets/dtw_observed.png)
 
