@@ -7,9 +7,9 @@ title: Research
 ----
 ## Specific projects
 
-### 1. Dynamic rupture simulation ([here](/pages/simulations.html) for details)
+### 3. Dynamic rupture simulation ([here](/pages/simulations.html) for details)
 ### 2. Physical explanations on the observations ([here](/pages/explanations.html) for details)
-### 3. Seismic observations ([here](/pages/observations.html) for details)
+### 1. Seismic observations ([here](/pages/observations.html) for details)
 
 ----
 ## General overview
