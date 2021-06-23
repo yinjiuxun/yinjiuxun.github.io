@@ -8,9 +8,9 @@ title: Publications
 
 <h2> Peer-reviewed journal papers </h2>
 
-[9] Yin, J., & Denolle, M. A. (-). Free surface effects determine depth-varying rupture behavior of megathrust earthquakes. (in prep.)
+[9] Yin, J., & Denolle, M. A. (2021). The Earth’s surface controls the depth-dependent seismic radiation of megathrust earthquakes. (preprint [here](https://www.essoar.org/doi/10.1002/essoar.10506212.3)). Accepted by AGU Advances.
 
-[8] Yin, J., Li, Z. & Denolle, M. A. (2020). Source time function clustering reveals patterns in earthquake dynamics. (submitted to SRL, pre-print can be found [here](https://doi.org/10.1002/essoar.10503349.2))
+[8] Yin, J., Li, Z. & Denolle, M. A. (2021). [Source Time Function Clustering Reveals Patterns in Earthquake Dynamics](https://pubs.geoscienceworld.org/ssa/srl/article/doi/10.1785/0220200403/595796/Source-Time-Function-Clustering-Reveals-Patterns). Seismological Research Letters.
 
 [7] Danré, P., Yin, J., Lipovsky, B. P., & Denolle, M. A. (2019). [Earthquakes within earthquakes: Patterns in rupture complexity](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083093). Geophysical Research Letters, 46(13), 7352-7360.
 
