@@ -14,6 +14,7 @@ We then turn to [global databases of BP images](http://ds.iris.edu/spud/backproj
 ![global_BP](/assets/global_BP_depth_frequency.png)
 
 _(Left) Ubiquitous depth-frequency relation found by back-projection observations. (a)-(c) BP images of the Mw 9.0 2011 Tohoku-oki, the Mw 7.9 2015 Gorkha, and the Mw 8.3 2015 Illapel earthquakes, respectively. The BP images are reconstructed using the imCS-BP method developed by Yin et al. (2018), and only the contours of 20%, 40%, 60%, and 80% maximum power are shown. The dashed black lines indicate the trench. The thin gray contours show the Slab2 model (Hayes et al., 2018). The purple contours in (a) show the 20 m and 50 m of coseismic slip distribution during the 2011 Tohoku earthquake from Lay et al. (2012), and the black solid line shows the location of the velocity profile of Miura et al. (2005). (d) Centroid depths of the low-frequency (0.05 - 0.25 Hz) BP images compared with the high-frequency (0.25 - 1 Hz) BP images from 245 M > 6.5 earthquakes._
+
 ----
 
 ### 4. Global patterns of STF complexity
