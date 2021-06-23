@@ -10,15 +10,14 @@ title: Simulations
 
 ----
 
-### 3. Dynamic simulations of megathrust earthquakes (on-going work)
+### 3. Dynamic simulations of megathrust earthquakes 
 
 
-**The manuscript of this work is in preparation now, hopefully the finished manuscript will come out in early August, 2020.**
 
-Megathrust events, especially those rupture to the surface, pose great threats to the coastal regions like the 2011 Tohoku earthquake. To better understand the physics of those surface rupturing megathrust events and predict their potential ground motions, numerical simulations with realistic parameter settings are important. In this study, we investigate the effects of different subduction zone velocity structures on the near field ground motions. Our model is the representative 2D thrust fault model with free surface and low dip angle. We couple different types of structural models: 1) homogeneous velocity structure; 2) realistic velocity structure from recent seismic tomography studies into the dynamic simulations. Because the S wave velocity structure in the subduction zone is still poorly constrained, we also try different $V_p/V_s$ ratio settings in the realistic velocity structure. The dynamic rupture and wave propagation are solved by the SEM2DPACK (developed by Jean Paul Ampuero, available [here](https://github.com/jpampuero/sem2dpack).).
+Megathrust events, especially those rupture to the surface, pose great threats to the coastal regions like the 2011 Tohoku earthquake. To better understand the physics of those surface rupturing megathrust events and predict their potential ground motions, numerical simulations with realistic parameter settings are important. In this study, we investigate the effects from realistic structures of subduction zones on dynamic rupture. Our model is the representative 2D thrust fault model with free surface and low dip angle. We couple different types of structural models: 1) homogeneous velocity structure; 2) realistic velocity structure from recent seismic tomography studies into the dynamic simulations. Because the S wave velocity structure in the subduction zone is still poorly constrained, we also try different $V_p/V_s$ ratio settings in the realistic velocity structure. The dynamic rupture and wave propagation are solved by the SEM2DPACK (developed by Jean Paul Ampuero, available [here](https://github.com/jpampuero/sem2dpack).).
 
 
-![megathrust](/assets/velocity_models.jpg)
+![megathrust](/assets/velocity_models.png)
 
 _Different types of velocity models settings._
 
@@ -26,7 +25,7 @@ _Different types of velocity models settings._
 For the same nucleation process, pre-stress distribution and friction properties at the dynamic source, the heterogeneous velocity structure prominently changes the wave propagation and plays an important role in the ground motion prediction. We seek for the seismic signatures of those structural heterogeneities by comparing the corresponding ground motions recorded at nearby receivers. The shallow structures with large velocity contrasts, such as the accretionary wedge and sedimentary layers, are able to trap the dynamic waves and cause large reverberations more efficiently, thus potentially lead to large ground motions and tsunamic hazards. These series of systematic simulations of cosesimic rupture for the subduction zones can help better understand the interactions between the dynamic rupture and heterogeneous near-source velocity structures, thus further help to mitigate the potential seismic hazards.
 
 
-![megathrust](/assets/model_comparison.jpg)
+![megathrust](/assets/model_comparison.png)
 
 _Comparison among dynamic rupture models with different velocity structures._
 
