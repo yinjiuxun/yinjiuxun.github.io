@@ -7,8 +7,9 @@ title: Research
 ----
 ## Specific projects
 
-### 3. Dynamic rupture simulation ([here](/pages/simulations.html) for details)
-### 2. Physical explanations on the observations ([here](/pages/explanations.html) for details)
+### 4. Separation of seismic signal using machine learning methods (on-going work and preliminary results coming soon!)
+### 3. Physical explanations on the observations ([here](/pages/explanations.html) for details)
+### 2. Dynamic rupture simulation ([here](/pages/simulations.html) for details)
 ### 1. Seismic observations ([here](/pages/observations.html) for details)
 
 ----
