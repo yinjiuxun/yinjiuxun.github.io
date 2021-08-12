@@ -15,6 +15,7 @@ title: Research
 ----
 ## General overview
 
+### Why and how earthquake rupture occurs? (Earthquake source)
 The recent surge of large earthquakes and the improvements on the observational techniques and numerical approaches provide a great opportunity to push forward our understandings on the rupture process of large earthquakes. However, today’s observational approaches are not necessarily well posed to validate physical models. For instance, mechanisms that affect the source, the pre-stress heterogeneity (A), fault geometry (B), frictional weakening mechanisms (C), and medium inelastic response (D) all greatly affect the dynamic evolution of the rupture but their effect on resulting seismic waves are not documented.
 
 ![PhD work](/assets/phd_workflow.png)
