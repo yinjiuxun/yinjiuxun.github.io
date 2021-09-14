@@ -20,11 +20,12 @@ The recent surge of large earthquakes and the improvements on the observational 
 
 ![PhD work](/assets/phd_workflow.png)
 
-In order to bridge seismic observations with earthquake physics, we need to tackle both sides simultaneously: to develop new observational techniques and metrics that are directly relevant to physical models of the source and lab experiments. This is the main topic of my study. Specifically, the research interests of mine inclue: 
+In order to bridge seismic observations with earthquake physics, we need to tackle both sides simultaneously: to develop new observational techniques and metrics that are directly relevant to physical models of the source and lab experiments. This is the main topic of my study. Specifically, the research interests of mine include ==but not limited to==: 
 
 1. Observational methods to study earthquake source
 2. Spatial and temporal evolution of earthquake rupture
 3. Kinematic and dynamic modeling of earthquake rupture
 4. Dynamic features in the earthquake source time functions
 5. Bridge between source observations and source dynamics
+6. Machine learning technique applied in seismology
 
