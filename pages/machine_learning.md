@@ -15,10 +15,12 @@ Earthquake signals in seismic data are inevitably contaminated with signals from
 
 
 ![One example of signal separation](/assets/signal_separation.png)
+
 _One example of seismic signal separation using a model trained from the [[STEAD](https://github.com/smousavi05/STEAD)] dataset._
 
 
 ![Model performance](/assets/model_performance.png)
+
 _Model performance shown by SNR vs EV (explained variance)._
 
 
