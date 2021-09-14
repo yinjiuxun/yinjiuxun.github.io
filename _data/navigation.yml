@@ -4,7 +4,7 @@
   link: /pages/research.html
 - name: Publications  /
   link: /pages/publications.html
-- name: News  /
-  link: /pages/blog.html
+#- name: News  /
+#  link: /pages/blog.html
 - name: CV  /
   link: /assets/Academic_CV.pdf
