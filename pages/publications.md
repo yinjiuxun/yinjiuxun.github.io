@@ -8,7 +8,7 @@ title: Publications
 
 <h2> Peer-reviewed journal papers </h2>
 
-[9] Yin, J., & Denolle, M. A. (2021). [The Earth’s surface controls the depth-dependent seismic radiation of megathrust earthquakes](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021AV000413). AGU Advances. <b>[Highlighted by editor](https://eos.org/editor-highlights/the-highs-and-the-lows-of-megathrust-earthquakes)<\b>.
+[9] Yin, J., & Denolle, M. A. (2021). [The Earth’s surface controls the depth-dependent seismic radiation of megathrust earthquakes](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021AV000413). AGU Advances. [Highlighted by editor](https://eos.org/editor-highlights/the-highs-and-the-lows-of-megathrust-earthquakes).
 
 [8] Yin, J., Li, Z. & Denolle, M. A. (2021). [Source Time Function Clustering Reveals Patterns in Earthquake Dynamics](https://pubs.geoscienceworld.org/ssa/srl/article/doi/10.1785/0220200403/595796/Source-Time-Function-Clustering-Reveals-Patterns). Seismological Research Letters.
 
