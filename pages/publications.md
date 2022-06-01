@@ -12,7 +12,7 @@ title: Publications
 
 [8] Yin, J., Li, Z. & Denolle, M. A. (2021). [Source Time Function Clustering Reveals Patterns in Earthquake Dynamics](https://pubs.geoscienceworld.org/ssa/srl/article/doi/10.1785/0220200403/595796/Source-Time-Function-Clustering-Reveals-Patterns). Seismological Research Letters.
 
-[7] Danré, P., Yin, J., Lipovsky, B. P., & Denolle, M. A. (2019). [Earthquakes within earthquakes: Patterns in rupture complexity](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083093). Geophysical Research Letters, 46(13), 7352-7360.
+[7] Danré, P., Yin, J., Lipovsky, B. P., & Denolle, M. A. (2019). [Earthquakes within earthquakes: Patterns in rupture complexity](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083093). Geophysical Research Letters, 46(13), 7352-7360. [Reported by Harvard Gazette News.](https://news.harvard.edu/gazette/story/2019/08/early-seismic-waves-hold-the-clue-to-the-power-of-the-main-temblor/)
 
 [6] Yin, J., & Denolle, M. A. (2019). [Relating teleseismic backprojection images to earthquake kinematics](https://academic.oup.com/gji/article-abstract/217/2/729/5301380). Geophysical Journal International, 217(2), 729-747.
 
