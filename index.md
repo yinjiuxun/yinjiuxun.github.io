@@ -10,7 +10,7 @@ title: Home
 ----
 
 ## About Me
-My name is Jiuxun Yin (尹九洵). I'm currently a PhD candidate at Harvard University, working with Prof. [Marine A. Denolle](https://quake.fas.harvard.edu/).
+My name is Jiuxun Yin (尹九洵). I'm currently a [postdoctoral scholar](http://www.seismolab.caltech.edu/yin_j.html) at California Institute of Technology.
 
 [**Google Scholar**](https://scholar.google.com/citations?user=MongEqQAAAAJ&hl=en&oi=sra) 
 [**Research Gate**](https://www.researchgate.net/profile/Jiuxun_Yin) 
@@ -27,4 +27,4 @@ In the recorded history, the largest earthquakes, for instance the 2004 Sumatra 
 
 As populations grows, especially in the coastal regions where large earthquakes usually occur, mitigating the earthquake hazards is critical. During large earthquakes, the building collapse caused by ground motion as well as coastal destruction caused by huge tsunami waves are deadliest to human. Both of them are directly controlled by the earthquake source and their mitigation requires sufficient knowledge about the physics of the earthquake rupture. Different processes in the rupture, such as the direction of propagation, energy participation or surrounding structure may incur locally different ground motion. Therefore, further understanding the rupture during large earthquake is of not only scientific significance but also important to mitigate seismic hazards.
 
-My research involves studying on the earthquake rupture process, which includes the initation, evolution and termination of an earthquake ([details](/pages/research.html)). The aims of my research are to better interpret the physics behind a destructive earthquake and helps to mitigate the damages caused by earthquakes.
+My research involves studying on the earthquake rupture process, which includes the initation, evolution and termination of an earthquake ([details](/pages/research.html)). The aims of my research are to better interpret the physics behind a destructive earthquake and helps to mitigate risks of earthquakes. I'm applying innovative techniques in my earthquake studies, including but not limited to using machine learning techniques to denoise the seismograms, using the DAS (Distributed Acoustic Sensing) data recorded by fiber-optical cables for earthquake early warning.
