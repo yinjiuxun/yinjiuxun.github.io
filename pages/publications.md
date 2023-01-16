@@ -8,8 +8,7 @@ title: Publications
 
 <h2> Peer-reviewed journal papers </h2>
 
-[11] Yin, J., Zhan, Z. & Husker, A. et al. (-) Earthquake magnitude with DAS: a transferable and
-universal scaling relation, in prep.
+[11] Yin, J., Zhan, Z. & Husker, A. et al. (-) Earthquake magnitude with DAS: a transferable data-driven scaling relation, in prep.
 
 [10] Yin, J., Denolle, M. A. & He, B. (2022). [A multitask encoder–decoder to separate earthquake and ambient noise signal in seismograms](https://doi.org/10.1093/gji/ggac290). Geophysical Journal International, 231(3), 1806-1822.
 
