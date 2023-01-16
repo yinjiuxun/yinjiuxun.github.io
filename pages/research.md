@@ -20,12 +20,18 @@ The recent surge of large earthquakes and the improvements on the observational 
 
 ![PhD work](/assets/phd_workflow.png)
 
-In order to bridge seismic observations with earthquake physics, we need to tackle both sides simultaneously: to develop new observational techniques and metrics that are directly relevant to physical models of the source and lab experiments. This is the main topic of my study. Specifically, the research interests of mine include <b>but not limited to</b>: 
+In order to bridge seismic observations with earthquake physics, we need to tackle both sides simultaneously: to develop new observational techniques and metrics that are directly relevant to physical models of the source and lab experiments. This is one of the main topics of my research. Specifically, the research interests of mine include <b>but not limited to</b>: 
 
 1. Observational methods to study earthquake source
 2. Spatial and temporal evolution of earthquake rupture
 3. Kinematic and dynamic modeling of earthquake rupture
 4. Dynamic features in the earthquake source time functions
 5. Bridge between source observations and source dynamics
-6. Machine learning technique applied in seismology
+
+### Earthquake source characterization and earthquake early warning with DAS
+DAS is an emerging technique recently introduced to the geophysical community. This fascinating technique can convert tens of kilometers of telecommunication fiber-optical cables to a dense seismic array with thousands of sensors. A DAS array can continuously record the along-cable strain with meters of spatial resolution. All those great features make DAS a game-changing technique to complement the current seismic networks in offshore areas. I'm currently developing methodologies to apply DAS for earthquake source characterization and earthquake early warning.
+![DAS work](/assets/DAS_figures.png)
+
+### WaveDecompNet: a machine-learning seismic denoiser in time domain
+Seismograms contain multiple sources of seismic waves, from distinct transient signals such as earthquakes to continuous ambient seismic vibrations such as microseism. Separating ambient noise and earthquake signals would benefit multiple seismological analyses. However, most previous methodologies require careful manual preprocessing, human interference, and experience. Machine-learning (ML) algorithms provide a solution and can significantly simplify this process with a well-articulated model. I developed an ML-based tool, WaveDecompNet, to simultaneously separate the earthquake and ambient noise signals for island seismic stations. WaveDecompNet can significantly improve the data quality of both earthquake and ambient noise signals by testing on real continuous seismic data. The promising results show the great potential of WaveDecompNet in different types of seismic data. 
 
