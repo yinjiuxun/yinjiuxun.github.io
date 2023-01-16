@@ -37,7 +37,7 @@ title: Publications
 # Selected Seminars and Colloquia
 [14] Seattle, WA (US), Invited talk at _ShakeAlert 2023 R&D Workshop_, Jan. 13, 2023
 
-[13] Seattle, WA (US), Invited talk at _University of Washington, SeismoLunch seminar_, Jan. 11, 2023
+[13] Seattle, WA (US), Invited talk at _SeismoLunch seminar at the University of Washington_, Jan. 11, 2023
 
 [12] Online, Invited talk at _USGS Earthquake Science Center seminar_, Oct. 19, 2022
 
