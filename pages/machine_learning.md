@@ -19,6 +19,8 @@ Seismograms contain multiple sources of seismic waves, from distinct transient s
 _The architecture of WaveDecompNet._
 
 
+
+
 ![example](/assets/wavedecompnet_example.png)
 
 _One example of seismic signal separation. The separated waveform can improve the results of STA/LTA detection._
