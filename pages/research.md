@@ -30,6 +30,7 @@ In order to bridge seismic observations with earthquake physics, we need to tack
 
 ### Earthquake source characterization and earthquake early warning with DAS
 DAS is an emerging technique recently introduced to the geophysical community. This fascinating technique can convert tens of kilometers of telecommunication fiber-optical cables to a dense seismic array with thousands of sensors. A DAS array can continuously record the along-cable strain with meters of spatial resolution. All those great features make DAS a game-changing technique to complement the current seismic networks in offshore areas. I'm currently developing methodologies to apply DAS for earthquake source characterization and earthquake early warning.
+
 ![DAS work](/assets/DAS_figures.png)
 
 ### WaveDecompNet: a machine-learning seismic denoiser in time domain
