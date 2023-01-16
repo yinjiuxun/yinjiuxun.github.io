@@ -19,13 +19,9 @@ Seismograms contain multiple sources of seismic waves, from distinct transient s
 _The architecture of WaveDecompNet._
 
 
+![example](/assets/wavedecompnet_example.png)
 
-_One example of seismic signal separation using a model trained from the [[STEAD](https://github.com/smousavi05/STEAD)] dataset._
-
-
-![Model performance](/assets/model_performance.png)
-
-_Model performance shown by SNR vs EV (explained variance)._
+_One example of seismic signal separation. The separated waveform can improve the results of STA/LTA detection._
 
 
 ----
