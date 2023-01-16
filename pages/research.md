@@ -36,3 +36,5 @@ DAS is an emerging technique recently introduced to the geophysical community. T
 ### WaveDecompNet: a machine-learning seismic denoiser in time domain
 Seismograms contain multiple sources of seismic waves, from distinct transient signals such as earthquakes to continuous ambient seismic vibrations such as microseism. Separating ambient noise and earthquake signals would benefit multiple seismological analyses. However, most previous methodologies require careful manual preprocessing, human interference, and experience. Machine-learning (ML) algorithms provide a solution and can significantly simplify this process with a well-articulated model. I developed an ML-based tool, WaveDecompNet, to simultaneously separate the earthquake and ambient noise signals for island seismic stations. WaveDecompNet can significantly improve the data quality of both earthquake and ambient noise signals by testing on real continuous seismic data. The promising results show the great potential of WaveDecompNet in different types of seismic data. 
 
+![WaveDecompNet](/assets/denoise_illustration.png)
+
