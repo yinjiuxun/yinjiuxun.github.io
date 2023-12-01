@@ -10,7 +10,7 @@ title: Home
 ----
 
 ## About Me
-My name is Jiuxun Yin (尹九洵). I'm currently a [postdoctoral scholar](http://www.seismolab.caltech.edu/yin_j.html) at California Institute of Technology.
+My name is Jiuxun Yin (尹九洵). I'm currently a research geophysicists at SLB.
 
 [**Google Scholar**](https://scholar.google.com/citations?user=MongEqQAAAAJ&hl=en&oi=sra) 
 [**Research Gate**](https://www.researchgate.net/profile/Jiuxun_Yin) 
