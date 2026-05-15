@@ -3,13 +3,13 @@
 ## Overview
 This document outlines actionable improvements for the personal academic website built with Jekyll. The goal is to enhance performance, accessibility, SEO, maintainability, and user experience.
 
-## 1. Fix Liquid Syntax Errors
+## 1. [Completed] Fix Liquid Syntax Errors
 - **File:** `_includes/navigation.html`
 - **Issue:** Line 4 contains invalid Liquid: `{{ item.name  \"emsp\"}}`.
 - **Fix:** Replace with `{{ item.name }}&emsp;` to insert an em space after the name, or use a filter if defined.
 - **Verification:** After change, run `jekyll build` locally and inspect generated navigation HTML.
 
-## 2. Complete CSS Styling
+## 2. [Completed] Complete CSS Styling
 - **Issue:** The site references `/assets/css/styles.css` but the file is missing; only `styles.scss` exists, importing `main.scss` which defines only `.current` class.
 - **Actions:**
   - Create a comprehensive `assets/css/styles.scss` (or convert to CSS) that includes:
@@ -22,7 +22,7 @@ This document outlines actionable improvements for the personal academic website
   - Ensure `styles.scss` is processed by Jekyll (via sass) and outputs `styles.css`.
   - Remove the empty `assets/css/styles.css` if present.
 
-## 3. Improve Performance
+## 3. [Completed] Improve Performance
 ### 3.1 Image Optimization
 - Compress existing JPEG/PNG images (e.g., using ImageOptim, mozjpeg, or pngquant).
 - Convert appropriate images to WebP with fallback.
@@ -35,7 +35,7 @@ This document outlines actionable improvements for the personal academic website
 ### 3.3 Browser Caching
 - Ensure proper caching headers via web server (GitHub Pages serves with appropriate headers; no action needed).
 
-## 4. Accessibility Improvements
+## 4. [Completed] Accessibility Improvements
 - Add `lang="en"` attribute to `<html>` (or detect language).
 - Ensure sufficient color contrast (test with WCAG AA).
 - Provide alternative text for all images (already have alt attributes? verify).
@@ -43,14 +43,14 @@ This document outlines actionable improvements for the personal academic website
 - Add skip-to-content link at top of page.
 - Use semantic HTML elements (`<header>`, `<nav>`, `<main>`, `<footer>`) where appropriate.
 
-## 5. SEO Enhancements
+## 5. [Completed] SEO Enhancements
 - Verify Jekyll SEO tags are configured correctly in `_config.yml` (title, description, author, twitter, facebook).
 - Add Open Graph and Twitter Card meta tags explicitly if not covered by plugin.
 - Generate a sitemap (already via jekyll-sitemap) and submit to Google Search Console.
 - Add structured data JSON-LD for Person, WebPage, and BlogPosting where appropriate.
 - Ensure each page has a unique `<title>` and meta description.
 
-## 6. Content & Structure
+## 6. [Completed] Content & Structure
 ### 6.1 Blog / News Section
 - Populate `_posts` with regular updates (research progress, conference talks, publications).
 - Use categories/tags for better discoverability.
