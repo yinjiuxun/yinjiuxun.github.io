@@ -65,7 +65,7 @@ This document outlines actionable improvements for the personal academic website
 - Ensure the publications page imports from a BibTeX file or uses a generator (jekyll-scholar) for easier maintenance.
 - Provide DOIs and links to PDFs.
 
-## 7. Configuration & Plugins
+## 7. [Completed] Configuration & Plugins
 - Add the following plugins to `_config.yml` (ensure they are compatible with GitHub Pages):
   - `jekyll-archives` (for category/tag pages)
   - `jekyll-paginate` (if you want paginated blog index)
