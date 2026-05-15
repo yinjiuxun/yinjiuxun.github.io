@@ -2,6 +2,7 @@
 layout: post
 author: Jiuxun
 title: Megathrust Modeling Workshop
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 
 <img src="/assets/megathrust_workshop_photo.jpg" alt="group retreat photo" loading="lazy">

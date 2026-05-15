@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Explanations
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 ## Physical explanations on the observations
 

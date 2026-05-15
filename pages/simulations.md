@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Simulations
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 ## Dynamic simulations of earthquake rupture
 

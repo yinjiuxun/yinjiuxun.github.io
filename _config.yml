@@ -21,5 +21,14 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tagsass:
+  - jekyll-seo-tag
+
+sass:
   style: compressed
+
+# SEO settings
+url: https://yinjiuxun.github.io
+title: Jiuxun Yin
+description: Research geophysicist specializing in earthquake seismology, machine learning, and DAS.
+twitter:
+  username: yinjiuxun

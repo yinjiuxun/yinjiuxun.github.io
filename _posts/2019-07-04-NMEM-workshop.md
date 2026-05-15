@@ -2,6 +2,7 @@
 layout: post
 author: Jiuxun
 title: 2019 NMEM workshop
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 
 <img src="/assets/NMEM_workshop.jpg" alt="group retreat photo" loading="lazy">

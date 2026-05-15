@@ -2,6 +2,7 @@
 # front matter tells Jekyll to process Liquid
 layout: default
 title: Home
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 
 

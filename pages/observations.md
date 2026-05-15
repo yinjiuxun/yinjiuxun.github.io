@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Observations
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 ## Seismic observations on large earthquakes
 

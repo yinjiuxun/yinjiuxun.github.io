@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Machine learning
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 ## Machine learning projects
 

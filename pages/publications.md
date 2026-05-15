@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Publications
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 
 # Publications
