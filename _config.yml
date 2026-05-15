@@ -22,9 +22,21 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate
 
 sass:
   style: compressed
+
+
+# Archives configuration
+archives:
+  layout: archive
+  permalink: /archive/:year/:month/
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # SEO settings
 url: https://yinjiuxun.github.io
