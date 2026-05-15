@@ -2,6 +2,7 @@
 layout: post
 author: Jiuxun
 title: SSA annual meeting
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 
 The 2018 Annual Meeting was held jointly with the Latin American and Caribbean Seismological Commission, 14-17 May in Miami, Florida.
