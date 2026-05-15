@@ -9,28 +9,25 @@
   </head>
   <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
-    <header class="site-header">
-      {% include navigation.html %}
+    <div class="site-container">
+      <header class="site-header">
+        {% include navigation.html %}
       </header>
-    <main id="main-content" class="site-main">
-      {{ content }}
-    </main>
-    <footer class="site-footer">
-      </footer>
-      {{ content }}
-    </main>
-    <footer class="site-footer">
+      <main id="main-content" class="site-main">
+        {{ content }}
+      </main>
+      <footer class="site-footer">
+        <!-- site footer content can go here -->
       </footer>
     </div>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\\\(','\\\\\\)']],
+          processEscapes: true
+        }
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" async></script>
   </body>
 </html>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$','$'], ['\\\\(','\\\\)']],
-      processEscapes: true
-    }
-  });
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" async></script>
