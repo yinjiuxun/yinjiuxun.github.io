@@ -4,7 +4,7 @@ author: Jiuxun
 title: 2019 NMEM workshop
 ---
 
-![group retreat photo](/assets/NMEM_workshop.jpg)
+<img src="/assets/NMEM_workshop.jpg" alt="group retreat photo" loading="lazy">
 
 
 Wonderful workshop:
