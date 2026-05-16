@@ -297,7 +297,59 @@ nav a.current {
     }
 }
 
-/* 15. 打印样式优化 */
+/* 16. 图片增强样式（学术规范） */
+.figure {
+    margin: 3rem 0;
+}
+
+.figure img {
+    margin-bottom: 1rem;
+}
+
+.figure-caption {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+
+/* 图片标题增强（学术论文风格） */
+.figure-title {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+/* 图片说明块（长描述） */
+.figure-description {
+    font-size: 0.85rem;
+    color: #5a6b7d;
+    line-height: 1.6;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* 图片与文字环绕（可选布局） */
+.figure-inline-left {
+    float: left;
+    margin: 0 2rem 1.5rem 0;
+}
+
+.figure-inline-right {
+    float: right;
+    margin: 0 0 1.5rem 2rem;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 17. 打印样式优化 */
 @media print {
     body { background-color: #ffffff; }
     nav, .site-footer { display: none; }
