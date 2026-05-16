@@ -18,6 +18,9 @@ defaults:
     values:
       layout: "default"
 
+# Disable GitHub Pages default theme to use custom Harvard-style design
+theme: null
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
