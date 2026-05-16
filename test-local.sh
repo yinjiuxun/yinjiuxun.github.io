@@ -1,8 +1,15 @@
 #!/bin/bash
 cd /home/yinjiuxun/hermes_workspace/code/yinjiuxun.github.io
 
-# Install dependencies
-bundle install --redownload 2>&1 | tail -3
+# Install dependencies first
+echo "Installing dependencies..."
+bundle install --redownload 2>&1 | tail -5
+
+if [ $? -ne 0 ]; then
+    echo ""
+    echo "Trying bundle update jekyll-sass-converter to fix sass-embedded dependency..."
+    bundle update jekyll-sass-converter 2>&1 | tail -3
+fi
 
 echo ""
 echo "Starting Jekyll server on http://localhost:4000..."

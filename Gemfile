@@ -11,7 +11,7 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
-  gem 'jekyll-archives' # 移除这个依赖，改用独立 gem 或移除
+  # jekyll-archives 已移除 - 避免依赖冲突
   gem 'jekyll-paginate'
 end
 
