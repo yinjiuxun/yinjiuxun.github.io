@@ -1,0 +1,99 @@
+# Harvard 风格个人主页优化计划
+
+## 📋 项目信息
+- **网站**: Jiuxun Yin (尹九洵) Personal Website  
+- **定位**: Research Geophysicist @ SLB（哈佛校友风格）  
+- **目标风格**: 经典庄重、清晰易读的学术风格（Harvard FAS 参考）
+
+---
+
+## 🎨 核心设计规范
+
+| 元素 | 旧值 | 新值 | 说明 |
+|------|------|------|------|
+| **主色调** | `#E74C3C` (红色) | `#A51C30` (Harvard Crimson) | 哈佛标志性深红，体现毕业院校身份 |
+| **标题字体** | 系统默认无衬线 | `Merriweather`, Georgia, serif | 经典学术衬线体（哈佛 FAS 推荐） |
+| **正文字体** | system-ui | `Inter`, system-ui, sans-serif | 清晰现代的无衬线，提升阅读体验 |
+| **背景色** | `#fafafa` (浅灰) | `#ffffff` + `#f8f9fa` | 纯白主体 + 浅灰分区（哈佛风格） |
+| **容器宽度** | 960px | 760px | 更窄的栏宽，增强专注力 |
+| **段前距** | 无 | 1.2em | 经典学术论文式排版 |
+
+---
+
+## 📁 文件修改计划
+
+### ✅ Step 1: 创建 Harvard 风格 CSS 文件
+- **新建文件**: `/assets/css/harvard-style.css`
+- **内容**: 
+  - 字体导入（Google Fonts）
+  - 基础配色变量（Harvard Crimson 系列）
+  - 响应式布局容器（760px 宽度 + 居中）
+  - 标题层级样式（Merriweather 字体，经典层次）
+  - 导航栏样式（深蓝底 + Harvard Crimson 高亮）
+
+### ✅ Step 2: 修改主样式文件
+- **修改**: `/assets/css/styles.scss`
+- **操作**: 在文件顶部添加 `@import 'harvard-style';`
+
+### ✅ Step 3: 更新导航组件
+- **修改**: `_includes/navigation.html`
+- **改动**:
+  - 添加 site-title（姓名 + 职位）
+  - 导航链接改为紧凑行内样式
+
+### ✅ Step 4: 优化首页布局
+- **修改**: `index.md`
+- **改动**:
+  - 首屏添加哈佛风格标题卡片
+  - 社交链接用图标式展示（Google Scholar/ResearchGate/ORCID/GitHub）
+  - Research Interest 分区增强视觉层次
+
+### ✅ Step 5: 图片展示优化
+- **修改**: CSS 增加 `.figure` 和 `.caption` 样式
+- **改动**:
+  - 所有图片添加灰色边框（2px solid #ddd）
+  - 图片下方自动显示 caption（小号字 + 斜体）
+
+### ✅ Step 6: 首页结构优化（可选增强项）
+- **新增**: `_includes/header-card.html`
+- **内容**:
+  ```html
+  <div class="header-card">
+    <h1>Jiuxun Yin 尹九洵</h1>
+    <p class="subtitle">Research Geophysicist at SLB | Harvard Alumni</p>
+    <nav class="social-links">
+      <!-- Google Scholar, ResearchGate, ORCID, GitHub 链接 -->
+    </nav>
+  </div>
+  ```
+
+---
+
+## 🎯 优先级排序
+
+| 优先级 | 改进项 | 工作量 | 影响 |
+|--------|--------|--------|------|
+| 🔴 P0 | 创建 Harvard CSS 文件 | 30 min | 核心风格基础 |
+| 🔴 P0 | 修改主样式引入 | 5 min | 激活新样式 |
+| 🟠 P1 | 更新导航组件 | 20 min | 提升品牌感 |
+| 🟠 P1 | 首页首屏优化 | 30 min | 用户第一印象 |
+| 🟡 P2 | 图片 caption 支持 | 15 min | 学术规范性 |
+| 🟢 P3 | 新增 header-card 模块 | 40 min | 品牌强化（可选） |
+
+---
+
+## 🔍 验收标准
+
+- [ ] 导航栏顶部为深蓝色，Harvard Crimson (#A51C30) logo
+- [ ] 标题使用衬线字体（Merriweather/Georgia）
+- [ ] 容器宽度 ~760px，左右留白充足
+- [ ] 所有图片带灰色边框和 caption 注释
+- [ ] 首屏呈现清晰学术身份（姓名 + 职位 + 校友标识）
+
+---
+
+## 📝 备注
+
+- 保持现有内容不变，仅优化样式和布局
+- 所有改动应向 `ui_improve` 分支提交
+- 建议分步骤测试，每步后本地运行 `bundle exec jekyll serve` 验证效果
