@@ -1,7 +1,7 @@
 ---
 ---
 
-@import 'harvard-style';
+@use 'harvard-style' as *;
 
 /* 保留原有样式中的有用部分作为覆盖或补充 */
 .site-container {
