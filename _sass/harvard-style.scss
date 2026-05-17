@@ -43,7 +43,7 @@ body {
 .site-container {
     max-width: var(--container-width);
     margin: 2rem auto;
-    padding: 0 1.5rem;
+    padding: 0 3.5rem;
 }
 
 /* 5. 标题样式（Harvard 经典风格） */
@@ -265,7 +265,7 @@ img {
     
     .site-container {
         margin: 1.5rem auto;
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
     
     h1 { font-size: 2rem; }
@@ -280,8 +280,8 @@ img {
     }
     
     .section-bg {
-        margin: 1.5rem -1rem;
-        padding: 2rem 1rem;
+        margin: 1.5rem -3.5rem;
+        padding: 2rem 3.5rem;
     }
 }
 

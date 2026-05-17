@@ -3,35 +3,21 @@
 
 @use 'harvard-style' as *;
 
-/* 保留原有样式中的有用部分作为覆盖或补充 */
-.site-container {
-    max-width: var(--container-width);
-    margin: 2rem auto;
-    padding: 0 1.5rem;
-}
-
-.site-header {
-    background-color: var(--header-bg);
-    padding: 1.2rem 0;
-    margin-bottom: 3rem;
-}
-
-nav a.current {
-    color: var(--harvard-crimson) !important;
-}
-
-.site-footer {
-    text-align: center;
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    margin-top: 4rem;
-    padding: 2rem 0;
-    border-top: 1px solid var(--border-color);
+/* 优化内容排版布局 */
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 5rem;
 }
 
 @media (max-width: 680px) {
-    .site-container {
-        margin: 1.5rem auto;
-        padding: 0 1rem;
+    main {
+        padding: 1.5rem 2.5rem;
     }
+}
+
+/* 针对多媒体元素确保响应式弹性 */
+img, video {
+    max-width: 100%;
+    height: auto;
 }
