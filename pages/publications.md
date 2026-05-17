@@ -1,34 +1,49 @@
 ---
 layout: default
 title: Publications
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 
 # Publications
-----
-
-<h2> Peer-reviewed journal papers </h2>
-
-[9] Yin, J., & Denolle, M. A. (-). Free surface effects determine depth-varying rupture behavior of megathrust earthquakes. (in prep.)
-
-[8] Yin, J., Li, Z. & Denolle, M. A. (2020). Source time function clustering reveals patterns in earthquake dynamics. (submitted to SRL, pre-print can be found [here](https://doi.org/10.1002/essoar.10503349.2))
-
-[7] Danré, P., Yin, J., Lipovsky, B. P., & Denolle, M. A. (2019). [Earthquakes within earthquakes: Patterns in rupture complexity](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2019GL083093). Geophysical Research Letters, 46(13), 7352-7360.
-
-[6] Yin, J., & Denolle, M. A. (2019). [Relating teleseismic backprojection images to earthquake kinematics](https://academic.oup.com/gji/article-abstract/217/2/729/5301380). Geophysical Journal International, 217(2), 729-747.
-
-[5] Yin, J., Denolle, M. A., & Yao, H. (2018). [Spatial and temporal evolution of earthquake dynamics: case study of the Mw 8.3 Illapel Earthquake, Chile](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JB014265). Journal of Geophysical Research: Solid Earth, 123(1), 344-367.
-
-[4] Yin, J., Yao, H., Yang, H., Liu, J., Qin, W., & Zhang, H. (2017). [Frequency-dependent rupture process, stress change, and seismogenic mechanism of the 25 April 2015 Nepal Gorkha M w 7.8 earthquake](http://engine.scichina.com/publisher/scp/journal/SCES/doi/10.1007/s11430-016-9006-0?slug=abstract). Science China Earth Sciences, 60(4), 796-808.
-
-[3] Yin, J., Yang, H., Yao, H., & Weng, H. (2016). [Coseismic radiation and stress drop during the 2015 Mw 8.3 Illapel, Chile megathrust earthquake](http://onlinelibrary.wiley.com/doi/10.1002/2015GL067381/abstract). Geophysical Research Letters, 43(4), 1520-1528.
-
-[2] Yin, J., & Yao, H. (2016). [Rupture and frequency-dependent seismic radiation of the 2012 M w 8.6 Sumatra strike-slip earthquake](https://academic.oup.com/gji/article/205/3/1682/656054/Rupture-and-frequency-dependent-seismic-radiation). Geophysical Journal International, 205(3), 1682-1693.
-
-[1] Yang, H., Lin, J., Yin, J., & Yao, H. (2015). [Tectonic settings of the 2015M w 8.3 Coquimbo, Chile earthquake and its implications on megathrust earthquakes](http://engine.scichina.com/publisher/scp/journal/CSB/60/36/10.1360/N972015-01110?slug=abstract). Chinese Science Bulletin, 60(36), 3549-3556.
-
 
 ----
+
+[1] Zhai, Q., Yin, J., Yang, Y., Atterholt, J. W., Li, J., Husker, A., & Zhan, Z. (2025). [Comprehensive evaluation of DAS amplitude and its implications for earthquake early warning and seismic interferometry](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9168386026487856406). *Journal of Geophysical Research: Solid Earth*, 130(4), e2024JB030288.
+
+[2] Chen, X., Yin, J., Pennington, C., Wu, Q., & Zhan, Z. (2025). [Effect of Time Window and Spectral Measurement Options on Empirical Green’s Function Analysis Using DAS Array and Seismic Stations](https://doi.org/10.1785/0120240156). *Bulletin of the Seismological Society of America*, 115(3), 1255‑1266.
+
+[3] Zhai, Q., Husker, A., Zhan, Z., Biondi, E., Yin, J., Civilini, F., & Costa, L. (2024). [Assessing the feasibility of Distributed Acoustic Sensing (DAS) for moonquake detection](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12984359494917586598). *Earth and Planetary Science Letters*, 635, 118695.
+
+[4] Zhu, W., Biondi, E., Li, J., Yin, J., Ross, Z. E., & Zhan, Z. (2023). [Seismic arrival-time picking on distributed acoustic sensing data using semi-supervised learning](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5609365691656753946). *Nature Communications*, 14(1), 8192.
+
+[5] Yin, J., Zhu, W., Li, J., Biondi, E., Miao, Y., Spica, Z. J., Viens, L., Shinohara, M., Ide, S., et al. (2023). [Earthquake magnitude with DAS: A transferable data‑based scaling relation](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4380790920085672133). *Geophysical Research Letters*, 50(10), e2023GL103045.
+
+[6] Yin, J., Soto, M. A., Ramírez, J., Kamalov, V., Zhu, W., Husker, A., & Zhan, Z. (2023). [Real‑data testing of distributed acoustic sensing for offshore earthquake early warning](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6161916855973550308). *The Seismic Record*, 3(4), 269‑277.
+
+[7] Yin, J., Denolle, M. A., & He, B. (2022). [A multitask encoder–decoder to separate earthquake and ambient noise signal in seismograms](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18361129729603150975). *Geophysical Journal International*, 231(3), 1806‑1822.
+
+[8] Yin, J., Li, Z., & Denolle, M. A. (2021). [Source time function clustering reveals patterns in earthquake dynamics](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8251532392428323823). *Seismological Society of America Bulletin*, 92(4), 2343‑2353.
+
+[9] Yin, J., & Denolle, M. A. (2021). [The earth's surface controls the depth‑dependent seismic radiation of megathrust earthquakes](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14309341081148569759). *AGU Advances*, 2(3), e2021AV000413.
+
+[10] Danré, P., Yin, J., Lipovsky, B. P., & Denolle, M. A. (2019). [Earthquakes within earthquakes: Patterns in rupture complexity](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2796302399259034733). *Geophysical Research Letters*, 46(13), 7352‑7360.
+
+[11] Yin, J., & Denolle, M. A. (2019). [Relating teleseismic backprojection images to earthquake kinematics](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5371220079159979784). *Geophysical Journal International*, 217(2), 729‑747.
+
+[12] Yin, J., Denolle, M. A., & Yao, H. (2018). [Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the Mw 8.3 Illapel Earthquake, Chile](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13803846706704684258). *Journal of Geophysical Research: Solid Earth*, 123(1), 344‑367.
+
+[13] Yin, J. X., Yao, H. J., Yang, H. F., Liu, J., Qin, W. Z., & Zhang, H. J. (2017). [Frequency‑dependent rupture process, stress change, and seismogenic mechanism of the 25 April 2015 Nepal Gorkha Mw 7.8 earthquake](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18106162776730250443). *Science China Earth Sciences*, 60(4), 796‑808.
+
+[14] Yin, J., Yang, H., Yao, H., & Weng, H. (2016). [Coseismic radiation and stress drop during the 2015 Mw 8.3 Illapel, Chile megathrust earthquake](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4080048994527182481). *Geophysical Research Letters*, 43(4), 1520‑1528.
+
+[15] Yin, J., & Yao, H. (2016). [Rupture and frequency‑dependent seismic radiation of the 2012 Mw 8.6 Sumatra strike‑slip earthquake](https://academic.oup.com/gji/article/205/3/1682/656054/Rupture-and-frequency-dependent-seismic-radiation). *Geophysical Journal International*, 205(3), 1682‑1693.
+
 # Selected Seminars and Colloquia
+[14] Seattle, WA (US), Invited talk at _ShakeAlert 2023 R&D Workshop_, Jan. 13, 2023
+
+[13] Seattle, WA (US), Invited talk at _SeismoLunch seminar at the University of Washington_, Jan. 11, 2023
+
+[12] Online, Invited talk at _USGS Earthquake Science Center seminar_, Oct. 19, 2022
 
 [11] Eugene, OR (US), Poster presentation at _Megathrust Modeling Workshop_, Oct. 6-9, 2019
 

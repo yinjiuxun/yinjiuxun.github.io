@@ -1,6 +1,7 @@
 ---
 layout: default
 title: News
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 
 # News

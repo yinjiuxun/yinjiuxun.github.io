@@ -2,6 +2,7 @@
 layout: post
 author: Jiuxun
 title: DTW clustering paper submitted to AGU Advances
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 
 Finally, our DTW clustering paper got submitted to AGU Advances. Abstract below:

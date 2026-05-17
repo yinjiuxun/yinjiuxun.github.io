@@ -2,6 +2,7 @@
 layout: post
 author: Jiuxun
 title: New GRL paper comes out!
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 
 Our new paper on the earthquake subevent and complexity
