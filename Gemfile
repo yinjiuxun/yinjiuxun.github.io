@@ -19,4 +19,4 @@ end
 gem 'listen', '~> 3.8'
 
 # 其他依赖
-gem 'webrick', '~> 1.7' # Ruby 3.0+ 需要
+gem 'webrick', '~> 1.8' # Ruby 3.0+ 需要
