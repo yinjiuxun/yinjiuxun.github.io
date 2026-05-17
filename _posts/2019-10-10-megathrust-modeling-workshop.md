@@ -2,9 +2,10 @@
 layout: post
 author: Jiuxun
 title: Megathrust Modeling Workshop
+description: Personal website of Jiuxun Yin, research geophysicist.
 ---
 
-![group retreat photo](/assets/megathrust_workshop_photo.jpg)
+<img src="/assets/megathrust_workshop_photo.jpg" alt="group retreat photo" loading="lazy">
 
 
 Megathrust Modeling Workshop @ University of Oregon, Eugene (Oct 6 – 9)

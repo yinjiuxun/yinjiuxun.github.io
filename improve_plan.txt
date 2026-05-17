@@ -1,0 +1,126 @@
+# Improvement Plan for yinjiuxun.github.io
+
+## Overview
+This document outlines actionable improvements for the personal academic website built with Jekyll. The goal is to enhance performance, accessibility, SEO, maintainability, and user experience.
+
+## 1. [Completed] Fix Liquid Syntax Errors
+- **File:** `_includes/navigation.html`
+- **Issue:** Line 4 contains invalid Liquid: `{{ item.name  \"emsp\"}}`.
+- **Fix:** Replace with `{{ item.name }}&emsp;` to insert an em space after the name, or use a filter if defined.
+- **Verification:** After change, run `jekyll build` locally and inspect generated navigation HTML.
+
+## 2. [Completed] Complete CSS Styling
+- **Issue:** The site references `/assets/css/styles.css` but the file is missing; only `styles.scss` exists, importing `main.scss` which defines only `.current` class.
+- **Actions:**
+  - Create a comprehensive `assets/css/styles.scss` (or convert to CSS) that includes:
+    - Reset or normalize CSS.
+    - Base typography (font sizes, line heights, readable contrast).
+    - Layout constraints (max-width, centering).
+    - Responsive design using media queries.
+    - Styling for navigation, headings, lists, images, tables, code blocks.
+    - Dark mode optional.
+  - Ensure `styles.scss` is processed by Jekyll (via sass) and outputs `styles.css`.
+  - Remove the empty `assets/css/styles.css` if present.
+
+## 3. [Completed] Improve Performance
+### 3.1 Image Optimization
+- Compress existing JPEG/PNG images (e.g., using ImageOptim, mozjpeg, or pngquant).
+- Convert appropriate images to WebP with fallback.
+- Add `loading="lazy"` attribute to `<img>` tags in posts/pages.
+- Use `srcset` and `sizes` for responsive images where applicable.
+### 3.2 Asset Minification
+- Enable Jekyll's built-in sass compression (already default?).
+- Consider using `jekyll-assets` or external tools to minify CSS and JS.
+- Defer MathJax loading: move script to bottom or add `async` attribute.
+### 3.3 Browser Caching
+- Ensure proper caching headers via web server (GitHub Pages serves with appropriate headers; no action needed).
+
+## 4. [Completed] Accessibility Improvements
+- Add `lang="en"` attribute to `<html>` (or detect language).
+- Ensure sufficient color contrast (test with WCAG AA).
+- Provide alternative text for all images (already have alt attributes? verify).
+- Ensure navigation is keyboard operable (should be default).
+- Add skip-to-content link at top of page.
+- Use semantic HTML elements (`<header>`, `<nav>`, `<main>`, `<footer>`) where appropriate.
+
+## 5. [Completed] SEO Enhancements
+- Verify Jekyll SEO tags are configured correctly in `_config.yml` (title, description, author, twitter, facebook).
+- Add Open Graph and Twitter Card meta tags explicitly if not covered by plugin.
+- Generate a sitemap (already via jekyll-sitemap) and submit to Google Search Console.
+- Add structured data JSON-LD for Person, WebPage, and BlogPosting where appropriate.
+- Ensure each page has a unique `<title>` and meta description.
+
+## 6. [Completed] Content & Structure
+### 6.1 Blog / News Section
+- Populate `_posts` with regular updates (research progress, conference talks, publications).
+- Use categories/tags for better discoverability.
+- Consider adding a featured image for posts.
+### 6.2 Project Pages
+- Expand individual project pages (e.g., machine_learning.md, observations.md) with more detailed descriptions, figures, and links to code/data.
+- Use consistent layout (maybe a project layout) to avoid repetition.
+### 6.3 About Me
+- Add a short biography in both English and Chinese (already present partially).
+- Include a professional photo (headshot) with alt text.
+### 6.4 Publications
+- Ensure the publications page imports from a BibTeX file or uses a generator (jekyll-scholar) for easier maintenance.
+- Provide DOIs and links to PDFs.
+
+## 7. [Completed] Configuration & Plugins
+- Add the following plugins to `_config.yml` (ensure they are compatible with GitHub Pages):
+  - `jekyll-archives` (for category/tag pages)
+  - `jekyll-paginate` (if you want paginated blog index)
+  - `jekyll-redirect-from` (already have redirect collection; ensure usage)
+  - `jekyll-gist` (optional)
+- Example `_config.yml` snippet:
+```
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate
+```
+- Configure archives:
+```
+collections:
+  redirect:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /:year/:month/:day/:title/
+```
+- Set pagination:
+```
+paginate: 5
+paginate_path: "/blog/page:num/"
+```
+
+## 8. Development Workflow
+- Use a local development container (Docker) or `jekyll serve` with `--livereload` for testing.
+- Write a simple script to run `htmlproofer` for broken links and validation.
+- Add a GitHub Actions workflow to automatically build and test the site on each push.
+
+## 9. Monitoring & Maintenance
+- Set up Google Analytics or Umami for privacy-friendly analytics.
+- Periodically run accessibility audits (e.g., using axe core).
+- Keep dependencies updated (Gemfile.lock).
+
+## 10. Deliverables
+- Fixed navigation include.
+- Complete CSS framework.
+- Optimized images (with scripts or documentation).
+- Updated `_config.yml` with additional plugins and settings.
+- Added SEO and accessibility improvements.
+- Documentation of steps in this plan.
+
+## Next Steps
+1. Clone the repository (if not already).
+2. Create a branch for improvements.
+3. Apply fixes incrementally, committing after each logical change.
+4. Test locally with `jekyll serve`.
+5. Push branch and open a pull request for review.
+6. After merge, monitor site performance via Lighthouse.

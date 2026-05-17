@@ -1,7 +1,16 @@
-<nav>
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
-        {{ item.name  "emsp"}}
-    </a>
-    {% endfor %}
-</nav>
+<header class="site-header">
+    <div class="site-title-container">
+        <h1 class="site-title">Jiuxun Yin 尹九洵</h1>
+        {% if page.subtitle %}
+        <p class="subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+    </div>
+    
+    <nav>
+        {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+            {{ item.name }}
+        </a>
+        {% endfor %}
+    </nav>
+</header>

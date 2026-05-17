@@ -18,7 +18,31 @@ defaults:
     values:
       layout: "default"
 
+# Disable GitHub Pages default theme to use custom Harvard-style design
+theme: null
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+
+sass:
+  style: compressed
+
+
+# Archives configuration
+archives:
+  layout: archive
+  permalink: /archive/:year/:month/
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# SEO settings
+url: https://yinjiuxun.github.io
+title: Jiuxun Yin
+description: Research geophysicist specializing in earthquake seismology, machine learning, and DAS.
+twitter:
+  username: yinjiuxun
