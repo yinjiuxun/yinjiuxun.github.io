@@ -3,6 +3,11 @@
 
 @use 'harvard-style' as *;
 
+/* 页面水平边距 */
+body {
+    margin: 0 0.6rem;
+}
+
 /* 保留原有样式中的有用部分作为覆盖或补充 */
 .site-container {
     max-width: var(--container-width);
