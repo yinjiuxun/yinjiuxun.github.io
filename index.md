@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Jiuxun Yin 尹九洵
-subtitle: Research Geophysicist at SLB | Harvard Alumni
 description: Personal website of Jiuxun Yin, research geophysicist specializing in earthquake seismology, machine learning, and DAS.
 ---
 

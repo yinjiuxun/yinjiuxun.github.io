@@ -3,11 +3,16 @@
 
 @use 'harvard-style' as *;
 
+/* 页面水平边距 */
+body {
+    margin: 0 2rem;
+}
+
 /* 保留原有样式中的有用部分作为覆盖或补充 */
 .site-container {
     max-width: var(--container-width);
     margin: 2rem auto;
-    padding: 0 1.5rem;
+    padding: 0 var(--spacing-unit);
 }
 
 .site-header {
@@ -32,6 +37,6 @@ nav a.current {
 @media (max-width: 680px) {
     .site-container {
         margin: 1.5rem auto;
-        padding: 0 1rem;
+        padding: 0 calc(var(--spacing-unit) / 2);
     }
 }
