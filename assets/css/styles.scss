@@ -19,6 +19,10 @@ body {
     background-color: var(--header-bg);
     padding: 1.2rem 0;
     margin-bottom: 3rem;
+    width: 100%;
+    max-width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav a.current {

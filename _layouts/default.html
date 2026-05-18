@@ -8,10 +8,12 @@
     {% seo %}
   </head>
   <body>
-    <div class="site-container">
-      <header class="site-header">
+    <header class="site-header">
+      <div class="site-container">
         {% include navigation.html %}
-      </header>
+      </div>
+    </header>
+    <div class="site-container">
       <main id="main-content" class="site-main">
         {{ content }}
       </main>
